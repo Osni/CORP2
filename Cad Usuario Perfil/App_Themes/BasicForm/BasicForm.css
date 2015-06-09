@@ -1,0 +1,185 @@
+body  
+{
+    scrollbar-face-color: #DEE3E7; 
+    scrollbar-highlight-color: #FFFFFF; 
+    scrollbar-shadow-color: #DEE3E7; 
+    scrollbar-3dlight-color: #D1D7DC; 
+    scrollbar-arrow-color: #006699; 
+    scrollbar-track-color: #EFEFEF; 
+    scrollbar-darkshadow-color: #98AAB1;     
+    background-color: white; 
+    font-family: Verdana, Helvetica, sans-serif;     
+    font-size: 9pt;      
+}
+/* -------------------- -------------------- -------------------- */
+/* Dados da Doação */
+/* -------------------- -------------------- -------------------- */
+a,a:hover,a:link,a:active,a:visited { 
+	text-decoration: none; color : Blue; 
+}
+/*
+	FORM
+*/
+form { margin: 0px; padding: 0px; border: 0px; } 
+input, text {BORDER-RIGHT: #D3D3D3 1px solid;   	BORDER-TOP: #D3D3D3 1px solid; 	FONT-SIZE: 12px; 	BORDER-LEFT: #C8C6C6 2px solid; 		BORDER-BOTTOM: #C8C6C6 2px solid; 	background-color: #FFFFFF;}
+textarea { background-color: white; color: black; font-family: Verdana, serif; font-size: 10px; font-weight: normal; border-color: black; border-style: solid; border-width: 1px; }
+select { color: black; background-color: white; font-family: Verdana, serif; font-size: 10px; font-weight: normal; border-color: black; border-style: solid; border-width: 1px; }
+/* -------------------- -------------------- -------------------- */
+/* Mesagens*/
+/* -------------------- -------------------- -------------------- */
+#lblErroMens
+{
+    color : Red;
+    font-weight:bold;
+    font-size :9px;    
+}
+/* -------------------- -------------------- -------------------- */
+/* Filter Tabela */
+/* -------------------- -------------------- -------------------- */
+#filter_table 
+{
+    color: Black;
+    width:100%;
+	font-size: 10px;
+}
+#filter_table td
+{    
+    color: Black;
+    height:20px;	
+}
+#filter_table th
+{
+    color: #697cae;
+    height: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+
+#filter_title 
+{
+    height:20px;
+	font-size: 15px;	
+    border-collapse:collapse;
+    font-family: Arial Narrow, Verdana, Arial, Helvetica, sans-serif;
+	color:Blue;	
+	text-align:center;
+	font-weight:bold;
+}
+/* -------------------- -------------------- -------------------- */
+/* Filter Tabelas Bordas */
+/* -------------------- -------------------- -------------------- */	
+.tdBordas, #filter_table, #filter_title, #filter_table td , #filter_table th
+{
+    height: 15px;
+    border-collapse: collapse;
+    font-family: Verdana, Arial, Helvetica, sans-serif;    
+    background-color: #ffffff;    
+    border-right: lightgray 1px solid;
+    border-top: lightgray 1px solid;
+    border-left: lightgray 1px solid;
+    border-bottom: lightgray 1px solid;
+    padding-left:5px;
+}
+
+/* -------------------- -------------------- -------------------- */
+/* Fim Filter                                                     */ 
+/* -------------------- -------------------- -------------------- */	
+/* -------------------- -------------------- -------------------- */
+/* Toolbar */
+/* -------------------- -------------------- -------------------- */
+#tabToolBar
+{
+   padding: 3px 3px 3px 3px;
+}
+/* -------------------- -------------------- -------------------- */
+/* Fim Toolbar */
+/* -------------------- -------------------- -------------------- */
+/* -------------------- -------------------- -------------------- */
+/* Basic Form
+/* -------------------- -------------------- -------------------- */
+#tabMain
+{
+    border: 1px solid #E0E0E0;        
+    background-color: #FAFAFA;
+}
+
+#tabMain, #tabMain td
+{
+    height: 11px;
+    text-align:left;    
+    padding: 0px 5px 0px 5px;    
+}
+
+#tabMain input, #tabMain select, #tabMain textarea
+{
+    font-family:Verdana;
+    font-size: 9pt;    
+    border: 1px solid #C0C0C0;            
+}
+
+#TituloJanela
+{    
+    height: 28px;
+    font-size: 16px;
+    margin-bottom: 2px;    
+    text-align: center;
+    border-bottom: solid 1pt lightgray;
+    border-top: solid 1pt lightgray;
+    background-image:url(imagens/th.gif);
+    background-repeat:repeat-x;    
+    border-collapse: collapse;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #0066cc;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#TituloTopo
+{    
+    background-image: url("imagens/th.gif");
+    background-repeat:repeat-x;
+    font-family: Verdana;    
+    font-size: 12pt;
+    text-align:center;
+    height: 25px;
+}
+#TitCaixa
+{
+    border-top: 1px solid #C0C0C0;            
+    border-left: 1px solid #C0C0C0;            
+    border-right: 1px solid #C0C0C0;
+    background-image: url("imagens/th.gif");
+    background-repeat:repeat-x;    
+}
+#tabCaixa
+{
+    border-top: 1px solid #C0C0C0;            
+    border-left: 1px solid #C0C0C0;            
+    border-right: 1px solid #C0C0C0;
+    border-bottom:1px solid #C0C0C0;
+    width: 100%;
+}
+#tabCaixa th
+{
+    background-image:url(imagens/th.gif);
+    background-repeat:repeat-x;    
+}
+#tabCaixa textarea
+{
+    border: none;
+    width: 100%;
+}
+/* -------------------- -------------------- -------------------- */
+/* Fim Basic Form                       */
+/* -------------------- -------------------- -------------------- */
+
+td, th
+{
+    color: #1c4478;
+}
+
+#basic_form_table th
+{
+    text-align:right;
+}

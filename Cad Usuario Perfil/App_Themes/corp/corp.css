@@ -1,0 +1,697 @@
+body  
+{
+    scrollbar-face-color: #DEE3E7; 
+    scrollbar-highlight-color: #FFFFFF; 
+    scrollbar-shadow-color: #DEE3E7; 
+    scrollbar-3dlight-color: #D1D7DC; 
+    scrollbar-arrow-color: #006699; 
+    scrollbar-track-color: #EFEFEF; 
+    scrollbar-darkshadow-color: #98AAB1;     
+    background-color: white; 
+    font-family: Verdana, Helvetica, sans-serif;     
+    font-size: 9pt;      
+}
+
+/*=============================================
+    Formulários
+ =============================================*/
+
+#tabFormulario
+{ 
+    color
+    background: #F3F3F3;    
+}
+
+#tabFormulario th
+{
+    background: #E9E9E9;    
+}
+.ItemPesquisa
+{
+    font-size: 9pt;
+    font-weight: bold;
+    color: #006699;
+}
+#tabDadosOS td, #tabDadosOS th
+{
+    padding: 0px 4px 0px 4px;
+    height: 20px;
+}
+#EqpDados_tabEquipamento td, th 
+{
+    padding: 0px 0px 0px 0px;    
+}
+#tabDadosOS th 
+{
+    text-align:right;
+}
+
+#tabPerfil
+{
+    padding: 2 2 2 2;
+}
+#tabDadosUsuario
+{
+    padding: 0 2 0 2
+}
+#tabDadosUsuario td, #tabDadosUsuario th
+{
+    height: 5px;
+}
+
+.BorderCell
+{  
+   border:solid 1pt #E0E0E0
+}
+/*=============================================
+    Fim Formulários
+ =============================================*/
+
+#grid_TB_GRID, #EqpDados_grid_TB_GRID
+{
+    border-collapse: collapse;height:22px;width:100%;     
+}
+.BorderGrid , #grid_TB_GRID th, #grid_TB_GRID td, #EqpDados_grid_TB_GRID th, #EqpDados_grid_TB_GRID td, #grdItensDoacao_TB_GRID td, #grdItensDestinados_TB_GRID td
+{    
+	border: solid 1px #D7D7D7;
+	margin: 2pt 2pt 2pt 2pt;
+    padding: 3px 3px 3px 3px;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;    
+}
+#grid_TB_GRID th, #EqpDados_grid_TB_GRID th, #grdItensDoacao_TB_GRID th, #grdItensDestinados_TB_GRID th
+{
+    color: #000080;  
+    background-color: #e9e9e9;
+    font-weight: normal;
+    text-align:center;    
+}
+
+.grdLinhaPar 
+/*#grid_TB_GRID td, #EqpDados_grid_TB_GRID td, #grdItensDoacao_TB_GRID td, #grdItensDestinados_TB_GRID td */
+
+{
+    color: Black;
+    background-color: #f0f0f0;
+    text-align:left;
+}
+
+.grdLinhaImpar
+{
+    color: Black;
+    background-color: #fafafa;
+    text-align:left;    
+}
+
+#grid_img_remove, #grdItensDoacao_TB_GRID__img_remove, #grdItensDestinados_TB_GRID_img_remove {text-align:center }
+
+/* -------------------- -------------------- -------------------- */
+/* Fim Grid */
+/* -------------------- -------------------- -------------------- */
+
+#corpo_documento
+{    text-align:center;   
+}	
+a,a:link,a:active,a:visited { text-decoration: none; color : Blue; }
+a:hover	{ text-decoration: none; color :Blue; }
+
+/*
+	FORM
+*/
+
+form { margin: 0px; padding: 0px; border: 0px; } 
+
+input, text {BORDER-RIGHT: #D3D3D3 1px solid;   	BORDER-TOP: #D3D3D3 1px solid; 	FONT-SIZE: 12px; 	BORDER-LEFT: #C8C6C6 2px solid; 		BORDER-BOTTOM: #C8C6C6 2px solid; 	background-color: #FFFFFF;}
+textarea { background-color: white; color: black; font-family: Verdana, serif; font-size: 10px; font-weight: normal; border-color: black; border-style: solid; border-width: 1px; }
+select { color: black; background-color: white; font-family: Verdana, serif; font-size: 10px; font-weight: normal; border-color: black; border-style: solid; border-width: 1px; }
+
+input[type='radio']
+{
+    border:none;
+}
+input.radio 
+{
+    border:none;
+}
+input[type='checkbox']
+{
+    border:none;
+}
+
+input.checkbox
+{
+   border:none;
+}
+
+#lblErroMens
+{
+    color : Red;
+    font-weight:bold;
+    font-size :9px;    
+}
+
+/* -------------------- -------------------- -------------------- */
+/* Filter Tabela */
+/* -------------------- -------------------- -------------------- */
+
+#filter_table 
+{
+    color: Black;
+    width:100%;
+	font-size: 10px;
+}
+
+#filter_table td
+{    
+    color: Black;
+    height:20px;	
+}
+#filter_table th
+{
+    color: #697cae;
+    height: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+/* -------------------- -------------------- -------------------- */
+/* Filter Tabela */
+/* -------------------- -------------------- -------------------- */
+
+#background
+{
+    padding:2px 3px 2px 3px;
+    background-color: #DDDDDD;
+    border: outset 1px white;
+    font-size: 10px;
+    font-family: Verdana;
+}
+		
+/* -------------------- -------------------- -------------------- */
+/* Filter Titulo*/
+/* -------------------- -------------------- -------------------- */		
+
+#basicform td
+{   
+    height:20px;
+}
+#maintable
+{
+    background-color: #F7F6F3;
+    border: outset 1px white;
+    font-size: 8pt;
+    font-family: Verdana;    
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:2px;    
+    
+}
+#tabUnidades, #maintable
+{
+    /* Centralizar tabela */
+    text-align: left; 
+    margin-left: auto; 
+    margin-right: auto;
+    /* Fim Centralizar tabela */
+}
+#filter_title 
+{
+    height:20px;
+	font-size: 15px;	
+    border-collapse:collapse;
+    font-family: Arial Narrow, Verdana, Arial, Helvetica, sans-serif;
+	color:Blue;	
+	text-align:center;
+	font-weight:bold;
+}
+#TituloJanela
+{    
+    height: 28px;
+    font-size: 16px;
+    margin-bottom: 2px;    
+}
+#TituloTopico, #TituloTopico2, #TituloTopico1
+{
+    height: 20px;
+    font-size: 13px;
+}
+.Titulos, #TituloJanela, #TituloTopico, #TituloTopico1, #DadosDoacao_TituloTopico, #TituloTopico2
+{
+    text-align: center;
+    border-bottom: solid 1pt lightgray;
+    border-top: solid 1pt lightgray;
+    background-image:url(imagens/th.gif);
+    background-repeat:repeat-x;    
+    border-collapse: collapse;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #0066cc;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+	
+/* -------------------- -------------------- -------------------- */
+/* Filter Tabelas Bordas */
+/* -------------------- -------------------- -------------------- */	
+
+.tdBordas, #filter_table, #filter_title, #filter_table td , #filter_table th
+{
+    height: 15px;
+    border-collapse: collapse;
+    font-family: Verdana, Arial, Helvetica, sans-serif;    
+    background-color: #ffffff;    
+    border-right: lightgray 1px solid;
+    border-top: lightgray 1px solid;
+    border-left: lightgray 1px solid;
+    border-bottom: lightgray 1px solid;
+    padding-left:5px;
+}
+
+/* -------------------- -------------------- -------------------- */
+/* Fim Filter                                                     */ 
+/* -------------------- -------------------- -------------------- */	
+
+/* -------------------- -------------------- -------------------- */
+/* Toolbar */
+/* -------------------- -------------------- -------------------- */
+
+#tabToolBar
+{
+   padding: 3px 3px 3px 3px;
+}
+
+/* -------------------- -------------------- -------------------- */
+/* Fim Toolbar */
+/* -------------------- -------------------- -------------------- */
+
+/* -------------------- -------------------- -------------------- */
+/* Tabela Mensagem Anterior */
+/* -------------------- -------------------- --------------------  */
+
+#tabMsg, #DadosDoacao_tabMsg, #DadosDoacao_tabItens
+{
+    border-collapse: collapse;width:100%;
+}
+#tabMsg th, #tabMsg td
+{
+    border-right: #d3d3d3 1px solid;
+    border-top: #d3d3d3 1px solid;
+    border-left: #d3d3d3 1px solid;
+    border-bottom: #d3d3d3 1px solid;
+}
+#DadosDoacao_tabMsg 
+{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#DadosDoacao_tabMsg, #DadosDoacao_tabItens, #DadosDoacao_tabItens Caption
+{
+    border-right: #d3d3d3 1px solid;
+    border-top: #d3d3d3 1px solid;
+    border-left: #d3d3d3 1px solid;
+    border-bottom: #d3d3d3 1px solid;
+}
+.BorderMsg , #tabMsg th, #tabMsg td, #DadosDoacao_tabMsg td, #DadosDoacao_tabMsg th,  #DadosDoacao_tabMsg Caption{    	
+	padding: 2pt 2pt 2pt 2pt;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+#tabMsg th, #DadosDoacao_tabMsg th, #DadosDoacao_tabItens Caption
+{
+    color: blue;
+    background-color: #eeeeee;
+    font-weight: normal;
+}
+#tabMsg td, #DadosDoacao_tabMsg td
+{
+    color: Black;
+    background-color: #fafafa;
+}
+#DadosDoacao_divDadosDoacao
+{    
+    height: 110px;
+    text-align: left;   
+}    
+.BorderMsg, #DadosDoacao_divDadosDoacao, #DadosDoacao_divMensagens
+{
+    width: 100%;
+    border-right: Gray 1px solid;
+    border-top: Gray 1px solid;
+    border-left: Gray 1px solid;
+    border-bottom: Gray 1px solid;
+}
+
+/* -------------------- -------------------- -------------------- */
+/* Fim Tabela Mensagem Anterior */
+/* -------------------- -------------------- --------------------  */
+
+
+/* -------------------- -------------------- -------------------- */
+/* MessageBox                                                     */
+/* -------------------- -------------------- -------------------- */
+
+#TabMens
+{
+    border-right: darkblue 1px solid;
+    border-top: lightsteelblue 1px solid;
+    border-left: lightsteelblue 1px solid;
+    border-bottom: darkblue 1px solid;
+    background-color: #f5f5f5;
+    font-size: 12px;
+    font-family: Verdana;    
+}
+#TabCentro, #TabMens
+{
+    WIDTH: 483px;
+    HEIGHT: 100px;    
+    TOP: 150px;
+}
+#TabCentro th, #btnOK 
+{
+    background-image:url(imagens/th.gif);
+}
+#btnOK 
+{
+    BORDER-RIGHT: darkblue 1pt solid;
+    BORDER-TOP: lightsteelblue 1pt solid;
+    BORDER-LEFT: lightsteelblue 1pt solid;
+    BORDER-BOTTOM: darkblue 1pt solid;            
+    WIDTH: 98px;
+    HEIGHT: 35px;
+    CURSOR: hand; 
+}
+
+#MsgIframe
+{
+    font-family:Verdana;
+    font-size: 11px;
+}
+
+#shd {
+	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; FILTER: alpha(opacity=25); LEFT: 8px; BORDER-LEFT: #666666 1px solid; WIDTH: 100%; BORDER-BOTTOM: #666666 1px solid; POSITION: absolute; TOP: 8px; HEIGHT: 100%; BACKGROUND-COLOR: black; moz-opacity: 0.25; opacity: 0.25
+}
+
+/* -------------------- -------------------- -------------------- */
+/* Fim MessageBox                                                 */
+/* -------------------- -------------------- -------------------- */
+
+/* -------------------- -------------------- -------------------- */
+/* Tabela de Informações                                          */
+/* -------------------- -------------------- -------------------- */
+
+
+#tabInfo
+{
+    border-collapse: collapse;height:22px;width:100%;     
+}
+
+#tabInfo th, #tabInfo td
+{    
+	border: solid 1px #d0d0d0;
+	margin: 2pt 2pt 2pt 2pt;
+    padding: 3px 3px 3px 5px;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#tabInfo th
+{
+    color: blue;  
+    background-color: #e9e9e9;
+    font-weight: normal;
+    text-align:left;  
+}
+
+/* -------------------- -------------------- -------------------- */
+/* Fim Tabela de Informações                                      */
+/* -------------------- -------------------- -------------------- */
+
+/* -------------------- -------------------- -------------------- */
+/* AutoComplete                                                   */
+/* -------------------- -------------------- -------------------- */
+
+.txtAutC
+{
+    BORDER-RIGHT: #d3d3d3 1px solid;
+    BORDER-TOP: #d3d3d3 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #c8c6c6 2px solid;
+    BORDER-BOTTOM: #c8c6c6 2px solid;
+    BACKGROUND-COLOR: #ffffff
+}
+.btnAutC
+{
+    BORDER-RIGHT: #d3d3d3 1px solid;
+    BORDER-TOP: #d3d3d3 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #c8c6c6 2px solid;
+    BORDER-BOTTOM: #c8c6c6 2px solid;
+    BACKGROUND-COLOR: #ffffff
+}
+.btnAutC
+{
+    BACKGROUND-COLOR: #f0f0f0
+}
+DIV.msgAutC
+{
+    COLOR: #191970;
+    BACKGROUND-COLOR: #f0ffff
+}
+
+/* -------------------- -------------------- -------------------- */
+/* Fim AutoComplete                                               */
+/* -------------------- -------------------- -------------------- */
+
+/* -------------------- -------------------- -------------------- */
+/* Wizard RptView                                                 */
+/* -------------------- -------------------- -------------------- */
+#tabMain
+{
+    border: 1px solid #E0E0E0;        
+    background-color: #FAFAFA;
+}
+
+#tabMain, #tabMain td
+{
+    height: 11px;
+    text-align:left;    
+    padding: 0px 5px 0px 5px;    
+}
+#tabMain input, #tabMain select, #tabMain textarea
+{
+    font-family:Verdana;
+    font-size: 9pt;    
+    border: 1px solid #C0C0C0;            
+}
+#textarea
+{
+    border-top-style:none;
+    font-size:9pt;
+    font-family:Verdana;
+    position: relative;
+}
+.button
+{
+    background-color: #F0F0F0;
+    font-weight: bold;
+    position:relative;
+}
+#TituloTopo
+{
+    background-color: #FFFFFF;
+    background-image: url("imagens/th.gif");
+    background-repeat:repeat-x;
+    font-family: Verdana;    
+    font-size: 12pt;
+    text-align:center;
+    height: 25px;
+}
+#TitCaixa
+{
+    border-top: 1px solid #C0C0C0;            
+    border-left: 1px solid #C0C0C0;            
+    border-right: 1px solid #C0C0C0;
+    background-image: url("imagens/th.gif");
+    background-repeat:repeat-x;    
+}
+#tabCaixa
+{
+    border-top: 1px solid #C0C0C0;            
+    border-left: 1px solid #C0C0C0;            
+    border-right: 1px solid #C0C0C0;
+    border-bottom:1px solid #C0C0C0;
+    width: 100%;
+}
+#tabCaixa th
+{
+    background-image:url(imagens/th.gif);
+    background-repeat:repeat-x;    
+}
+#tabCaixa textarea
+{
+    border: none;
+    width: 100%;
+}
+#txtRelSQL
+{
+    font-family:Courier New;
+    font-size:8pt;
+}
+/* -------------------- -------------------- -------------------- */
+/* Fim Wizard RptView                                             */
+/* -------------------- -------------------- -------------------- */
+
+/* -------------------- -------------------- -------------------- */
+/* Property Box                                                   */  
+/* -------------------- -------------------- -------------------- */
+#tablePropertyBox, #tablePropertyBox TD, #tablePropertyBox TH
+{
+    margin: 0px 0px 0px 0px;
+    border-spacing: 0px;
+    padding: 0px 0px 0px 0px;
+    border-right: #adadac 1px solid;
+    border-top: #adadac 1px solid;
+    border-left: #adadac 1px solid;
+    border-bottom: #adadac 1px solid;
+}
+#tablePropertyBox th
+{
+    text-align: center;
+    background-image: url(imagens/thd.gif);
+    color: #3366cc;
+    font-size: 10pt;
+}
+#tablePropertyRows, #tablePropertyRows td, #tablePropertyRows th
+{
+    border: 1px solid #D0D0D0;
+    text-align: left;
+    font-size: 8pt;
+    color: #3366cc;
+}
+#tablePropertyRows th
+{
+    background-color: #F3F3F3;    
+}
+#tablePropertyRows th
+{
+    padding:  0px 0px 0px 2px;
+}
+#tablePropertyRows input, #tablePropertyRows text, #tablePropertyRows select, #tablePropertyRows option
+{    
+    border: none;
+    font-family: Verdana;
+    font-size: 8pt;
+}
+#PropertyBoxTitle, #PropertyBoxFooter
+{
+    height: 25px;
+    background-color: #E0E0E0;   
+	background-image: url(imagens/th.gif);		
+	background-repeat:repeat-x;
+}
+
+/* -------------------- -------------------- -------------------- */
+/* Fim Property Box                                               */
+/* -------------------- -------------------- -------------------- */
+
+/* -------------------- -------------------- -------------------- */
+/* ControlBox                                                     */  
+/* -------------------- -------------------- -------------------- */
+
+#tabCaixaLista
+{
+    border-left: solid 1px #A0A0A0;
+    border-top: solid 1px #A0A0A0;
+    border-bottom: solid 1px #E0E0E0;
+    border-right: solid 1px #E0E0E0;
+}
+#tabCaixaLista td
+{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+#tabCaixaLista input, #tabCaixaLista textarea, #tabCaixaLista text, #tabCaixaLista radio
+{
+    background-color:Transparent;
+    border: none;
+}
+#tabCaixaListaDetalhe td
+{
+    padding: 2px 2px 2px 2px;
+    height: 15px;
+    font-size: 8pt;
+    text-align:left;
+}
+#tabCaixaListaDetalheLinhas td
+{
+    padding: 2px 2px 2px 2px;
+    height: 15px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 8pt;
+}
+#tabCaixaLista #tituloLst
+{
+    text-align:center;
+    background-image: url(imagens/thd.gif);
+    color: #3366cc;
+    font-size: 10pt;
+}
+#tabCaixaListaDetalhe #titulocol
+{
+    text-align: left;
+    background-image: url(imagens/thd.gif);
+    font-size: 8pt;
+    color: #5578c0;
+}
+#tabCaixaLista #tituloLst, #tabCaixaListaDetalhe #titulocol
+{
+    height: 15px;
+    border-bottom: solid 1px #D0D0D0;
+    padding: 3px 2px 3px 2px;
+}
+.rowSelected
+{
+    background-color: #E0E0E0;
+    color: #464646;
+}
+.rowNormal
+{
+    background-color: #F5F5F5;
+    color: #000000;
+}
+
+/* -------------------- -------------------- -------------------- */
+/* Fim ControlBox                                                 */  
+/* -------------------- -------------------- -------------------- */
+
+td, th
+{
+    color: #1c4478;
+}
+th
+{
+    background-color:#E8E8E8;    
+}
+
+#tabTexto td, #tabTexto th
+{
+    font-family: Verdana;
+    text-align: center;   
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#tabTexto td
+{
+    font-size: 10pt;
+}
+
+#tabTexto th
+{
+    font-size: 11pt;
+}
+
+
+/* -------------------- -------------------- -------------------- */
+/* Fim ControlBox                                                 */  
+/* -------------------- -------------------- -------------------- */

@@ -1,0 +1,87 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft Visual Studio 6.0">
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<P>&nbsp;</P>
+<input type=text value="" size=30 id=tx>
+<!--textarea rows=50  cols=60 id=tx></textarea-->
+</BODY>
+</HTML>
+
+<script language=javascript>
+<!--
+//——————————————————————————————————————————————————————————————————————————————
+//——————————————————————————————————————————————————————————————————————————————
+//##############################################################################
+//Inicia a Super class
+function CORP(){}
+//Cria uma copia de Ajax para CORP
+CORP.prototype.Ajax = new CORP_AJAX();
+//#############################################################################
+//Inicia a Sub class
+function CORP_AJAX(){
+	this.url;this.ajax;
+}
+//##############################################################################
+//captura o HttpRequest
+CORP_AJAX.prototype.GetAjax = function GetHttpRequest()
+ {if (window.XMLHttpRequest) {return new XMLHttpRequest();} else if (window.ActiveXObject) {	return new ActiveXObject("Microsoft.XMLHTTP");}}
+//——————————————————————————————————————————————————————————————————————————————
+//Captura elemento Texto
+//——————————————————————————————————————————————————————————————————————————————
+//captura o elemento
+//##############################################################################
+CORP_AJAX.prototype.GetElement = function(id){
+	if (document.getElementById)return document.getElementById(id);
+	else if (document.all) return document.all[id];	
+}
+//##############################################################################
+CORP_AJAX.prototype.GetAjaxValue = function(id){	
+	this.GetAjaxHttpRequest(this.GetElement(id));
+}
+
+//##############################################################################
+// captura o retorno em texto
+CORP_AJAX.prototype.GetAjaxHttpRequest = function GetResponseText(el){	
+	var dt = new Date();//para atualizar sempre a url		
+	var cp =  new CORP()
+	cp.Ajax.ajax  = this.GetAjax();
+	cp.Ajax.ajax.open("GET", cp.Ajax.url + "&dt=" + dt, true);
+	cp.Ajax.ajax.send(null);
+	cp.Ajax.ajax.onreadystatechange = function(){
+		if (cp.Ajax.ajax.readyState==4){					
+			el.value=cp.Ajax.ajax.responseText;				
+		}
+	}		
+}
+//——————————————————————————————————————————————————————————————————————————————
+//Captura elementos XML
+//——————————————————————————————————————————————————————————————————————————————
+//##############################################################################
+CORP_AJAX.prototype.GetAjaxXmlCell = function(id){
+}
+//##############################################################################
+CORP_AJAX.prototype.GetAjaxXmlRows = function(id){	
+
+}
+//##############################################################################
+CORP_AJAX.prototype.GetAjaxXmlTable = function(id){
+
+}
+//——————————————————————————————————————————————————————————————————————————————
+//——————————————————————————————————————————————————————————————————————————————
+
+//--------------------------------------------
+window.setInterval("GetTimeServer()",200);
+//--------------------------------------------
+function GetTimeServer(){		
+	var cp  =  new CORP();
+	cp.Ajax.url="http://10.0.0.75/timer.asp?"
+	cp.Ajax.GetAjaxValue("tx");
+}
+//--------------------------------------------
+-->
+</script>

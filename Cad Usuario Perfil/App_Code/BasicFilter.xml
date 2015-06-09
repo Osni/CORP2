@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Todos as Tags XML devem ser minusculas pois o DOM ÃƒÆ’Ã‚Â© key Sensitive e estou usando minuscula-->
+<xmlbasicfilter>
+  <tab_equipamento>
+    <formretorno>TAB_EQUIPAMENTO.aspx</formretorno>
+    <arrcol>EQU_ID#EQU_DESCRICAO#EQU_SAI#EQU_PATRIMONIO#EQU_NUMERO_SERIE#EQU_CENTRO_CUSTO</arrcol>
+    <arrlabelcol>Código#Descrição#SAI#Patrimônio#Número Série#Centro de Custo</arrlabelcol>
+    <arrpaginascol>TAB_EQUIPAMENTO.aspx?EQU_ID</arrpaginascol>
+    <tituloview>Equipamentos</tituloview>
+    <tabela>VW_TAB_EQUIPAMENTO</tabela>
+  </tab_equipamento>
+  <tab_periferico>
+    <formretorno>TAB_PERIFERICO.aspx</formretorno>
+    <arrcol>PER_ID#PER_DESCRICAO#PER_PERIFERICO_TIPO</arrcol>
+    <arrlabelcol>Código#Descrição#Tipo</arrlabelcol>
+    <arrpaginascol>TAB_PERIFERICO.aspx?PER_ID</arrpaginascol>
+    <tituloview>Periféricos</tituloview>
+    <tabela>VW_TAB_PERIFERICO</tabela>
+  </tab_periferico>
+  <tab_periferico_tipo>
+    <formretorno>TAB_PERIFERICO_TIPO.aspx</formretorno>
+    <arrcol>PET_ID#PET_DESCRICAO</arrcol>
+    <arrlabelcol>Código#Descrição</arrlabelcol>
+    <arrpaginascol>TAB_PERIFERICO_TIPO.aspx?PET_ID</arrpaginascol>
+    <tituloview>Tipo de Periférico</tituloview>
+    <tabela>VW_TAB_PERIFERICO_TIPO</tabela>
+  </tab_periferico_tipo>
+  <tab_setor>
+    <formretorno>TAB_SETOR.aspx</formretorno>
+    <arrcol>SET_ID#SET_DESCRICAO#NIVEL_ACESSO</arrcol>
+    <arrlabelcol>Código#Descrição#Nível Acesso</arrlabelcol>
+    <arrpaginascol>TAB_SETOR.aspx?SET_ID</arrpaginascol>
+    <tituloview>Setores</tituloview>
+    <tabela>VW_TAB_SETOR</tabela>
+  </tab_setor>
+  <tab_software>
+    <formretorno>TAB_SOFTWARE.aspx</formretorno>
+    <arrcol>ID#DESCRICAO</arrcol>
+    <arrlabelcol>Código#Descrição</arrlabelcol>
+    <arrpaginascol>TAB_SOFTWARE.aspx?ID</arrpaginascol>
+    <tituloview>Softwares</tituloview>
+    <tabela>VW_TAB_SOFTWARE</tabela>
+  </tab_software>
+  <tab_software_interno>
+    <formretorno>TAB_SOFTWARE_INTERNO.aspx</formretorno>
+    <arrcol>ID#DESCRICAO</arrcol>
+    <arrlabelcol>Id#Descricao</arrlabelcol>
+    <arrpaginascol>TAB_SOFTWARE_INTERNO.aspx?ID</arrpaginascol>
+    <tituloview>Softwares Internos</tituloview>
+    <tabela>VW_TAB_SOFTWARE_INTERNO</tabela>
+  </tab_software_interno>
+  <tab_status>
+    <formretorno>TAB_STATUS.aspx</formretorno>
+    <arrcol>STA_NUMERO#STA_DESCRICAO</arrcol>
+    <arrlabelcol>Número#Descrição</arrlabelcol>
+    <arrpaginascol>TAB_STATUS.aspx?STA_NUMERO</arrpaginascol>
+    <tituloview>Status de OS</tituloview>
+    <tabela>VW_TAB_STATUS</tabela>
+  </tab_status>
+  <tab_unidade>
+    <formretorno>TAB_UNIDADE.aspx</formretorno>
+    <arrcol>UNI_ID#UNI_CODIGO_INTERNO#UNI_DESCRICAO#UNI_SIGLA</arrcol>
+    <arrlabelcol>Código#Código Interno#Nome#Sigla</arrlabelcol>
+    <arrpaginascol>TAB_UNIDADE.aspx?UNI_ID</arrpaginascol>
+    <tituloview>Unidades</tituloview>
+    <tabela>VW_TAB_UNIDADE</tabela>
+  </tab_unidade>
+  <equip_perif>
+    <formretorno>about.aspx</formretorno>
+    <arrcol>EQU_ID#EQU_DESCRICAO#EQU_SAI#EQU_PATRIMONIO#EQU_NUMERO_SERIE#EQU_CENTRO_CUSTO</arrcol>
+    <arrlabelcol>Código#Descrição#SAI#Patrimônio#Número Série#Centro de Custo</arrlabelcol>
+    <arrpaginascol>equipamentos_perifericos.aspx?EQU_ID</arrpaginascol>
+    <tituloview>Equipamentos</tituloview>
+    <tabela>VW_TAB_EQUIPAMENTO</tabela>
+  </equip_perif>  
+</xmlbasicfilter>
+
+
+
+

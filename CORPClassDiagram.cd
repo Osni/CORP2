@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Microsoft Sans Serif" Size="8.25" />
+  <Class Name="CORP.NET.ClsFilterCols" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>ClsFilterCols.vb</FileName>
+      <HashCode>ADAgAIAAEAAhgEAAACAQIAYQAIAAgQAIBAEAAAAFAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+  </Class>
+  <Class Name="CORP.NET.ClsCRT">
+    <Position X="8.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ClsDB.vb</FileName>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CORP.NET.ClsCRT.TypeMsg">
+        <TypeIdentifier>
+          <NewMemberFileName>ClsDB.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="CORP.NET.ClsSQL" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>ClsDB.vb</FileName>
+      <HashCode>ACEEAAAAAAAgIACASARAAAAAAAAAAEgAJIAIAAAgAAE=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Enum Name="CORP.NET.ClsSQL.TypeSQL" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ClsDB.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="CORP.NET.ClsDB" Collapsed="true">
+    <Position X="4.5" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>ClsDB.vb</FileName>
+      <HashCode>gAAAIAIAGAMAAAQCDAAgAQAAQAEQIAAAIAQAAAAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CORP.NET.ClsFilter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <FileName>ClsFilter.vb</FileName>
+      <HashCode>ACTIgYBAMAArTXJwAA4hgCFBAMAAQSSmJAIqCEBDqA0=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CORP.NET.ClsGrid" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>ClsGrid.vb</FileName>
+      <HashCode>CEgAIIoAABDAAAAUABAAAgAAElABAESAJAAAmQIAGEA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CORP.NET.ClsExtendCols">
+    <Position X="8.25" Y="9.75" Width="2" />
+    <TypeIdentifier>
+      <FileName>ClsGrid.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAEAAAAAAAAQAwAIAAAIAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CORP.NET.ClsExtendCols.ExType">
+        <TypeIdentifier>
+          <NewMemberFileName>ClsGrid.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="CORP.NET.ClsRPTView">
+    <Position X="4" Y="8" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>ClsRPTView.vb</FileName>
+      <HashCode>C2NwN4ACBACaFIQSCSAAEkOgKlIUBAgvBCUJogkWBTo=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CORP.NET.ClsRPTView.TPageLayout">
+        <TypeIdentifier>
+          <NewMemberFileName>ClsRPTView.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CORP.NET.ClsRPTView.TTipoRel">
+        <TypeIdentifier>
+          <NewMemberFileName>ClsRPTView.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CORP.NET.ClsRPTView.TTipoConsulta">
+        <TypeIdentifier>
+          <NewMemberFileName>ClsRPTView.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CORP.NET.ClsRPTView.TEstiloGrupo">
+        <TypeIdentifier>
+          <NewMemberFileName>ClsRPTView.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CORP.NET.ClsRPTView.TOrientacao">
+        <TypeIdentifier>
+          <NewMemberFileName>ClsRPTView.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CORP.NET.ClsRPTView.TGerarRPT">
+        <TypeIdentifier>
+          <NewMemberFileName>ClsRPTView.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="CORP.NET.Colunas">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ClsRPTView.vb</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CORP.NET.Coluna">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ClsRPTView.vb</FileName>
+      <HashCode>AAgCAACoAAAYFQACAAUoAAkBCCBAACAJiAggAAECQBI=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CORP.NET.Coluna.TTipoResumo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ClsRPTView.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CORP.NET.Coluna.TAlinhamento" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ClsRPTView.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CORP.NET.Coluna.TTipoColuna" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ClsRPTView.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="CORP.NET.ClsRPTParam" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="8" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>ClsRPTView.vb</FileName>
+      <HashCode>ACBCAIAAAASQFQAwAAMAAEWAICBBABSIQCUAIAAgCBE=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CORP.NET.ClsRPTParam.TEstilo">
+        <TypeIdentifier>
+          <NewMemberFileName>ClsRPTView.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CORP.NET.ClsRPTParam.TOption">
+        <TypeIdentifier>
+          <NewMemberFileName>ClsRPTView.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CORP.NET.ClsRPTParam.TEstiloCaption" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ClsRPTView.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <Lollipop Position="0.21" />
+  </Class>
+  <Class Name="CORP.NET.ColunasParam">
+    <Position X="6.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ClsRPTView.vb</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CORP.NET.ColunaParam">
+    <Position X="6.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ClsRPTView.vb</FileName>
+      <HashCode>AAACABEARIACVAADAICCAEkBAAIECDCFkIggIAGINhI=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Enum Name="CORP.NET.ColunaParam.TTipoColuna" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ClsRPTView.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CORP.NET.ColunaParam.TTipoLista" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ClsRPTView.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CORP.NET.ColunaParam.TTipoCampo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ClsRPTView.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CORP.NET.ColunaParam.TOperador" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ClsRPTView.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="CORP.NET.ClsFunctions" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ClsRPTView.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAEAAAAAAAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CORP.NET.ClsGetExcelFile" Collapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ClsExcelExport.vb</FileName>
+      <HashCode>gUiFACGEAMwAAoSAAAEAICAAAQAAAOAIgCBCAFBAABg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CORP.NET.ClsExcel" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ClsExcelExport.vb</FileName>
+      <HashCode>AACAAAFAABAAgIFQAAQgNASCAQAgAAAAQ4hgAQJABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CORP.NET.ClsControlBox" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ClsControlBox.vb</FileName>
+      <HashCode>kgiAgMgAEEACAwQQAQBQAIAE0IACAxTIgCQEGApCGgQ=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CORP.NET.ClsAutoComplete" Collapsed="true">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ClsAutoComplete.vb</FileName>
+      <HashCode>AAIAAcAAAAAAAAQYSAEAAQAAACAEAAQACiAgCAZBCAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>
